@@ -2,6 +2,7 @@
 
 .home {
   .intro {
+    
     img {
       max-width: 100%;
       height: auto;
@@ -22,32 +23,33 @@
     flex-wrap: wrap;
     width: 100%;
 
+    @media @phone{
+      
+      :nth-child(1){
+        width:80%;
+        justify-content: center;
+      }
+      :nth-child(2){
+        display: none;
+      }
+      :nth-child(3){
+        display: none;
+      }
+    }
+    
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
-
-      img .blast {
-        @media @phone {
-          display: block;
-        }
-      }
-
-      img .sky {
-        @media @phone {
-          display: none;
-        }
-      }
-
-      img .launch {
-        @media @phone {
-          display: none;
-        }
-      }
+   
     }
   }
 
+
+  
+    
+  
   .visit-planets {
     padding: 15px;
 
