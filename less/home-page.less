@@ -28,18 +28,21 @@
       border-radius: 20px;
       height: 100%;
 
-      .sky {
-        @media @phone {
-          .img-gone();
+      @media @phone {
+        .blast {
+          display: block;
+        }
+        .sky {
+          display: none;
+        }
+        .launch {
+          display: none;
+        }
         }
       }
-      .launch {
-        @media @phone {
-          .img-gone();
-        }
-      }
-    }
-  }
+   }  
+  
+  
 
   .visit-planets {
     padding: 15px;
@@ -66,6 +69,7 @@
 
     .walk-text {
       width: 100%;
+      padding-top: 20px;
 
       @media @phone {
         order: 2;

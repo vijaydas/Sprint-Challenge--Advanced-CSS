@@ -164,7 +164,6 @@ p {
   width: 100%;
   height: 100px;
   background: #F6F6F6;
-  border-bottom: #F1F1F1;
   position: sticky;
 }
 .main-navigation .nav-container {
@@ -234,14 +233,13 @@ footer {
   height: 100%;
 }
 @media (max-width: 500px) {
+  .home .space-images img .blast {
+    display: block;
+  }
   .home .space-images img .sky {
-    display: flex;
     display: none;
   }
-}
-@media (max-width: 500px) {
   .home .space-images img .launch {
-    display: flex;
     display: none;
   }
 }
@@ -268,6 +266,7 @@ footer {
 }
 .home .walk .walk-text {
   width: 100%;
+  padding-top: 20px;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text {
