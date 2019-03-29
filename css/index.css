@@ -233,13 +233,17 @@ footer {
   height: 100%;
 }
 @media (max-width: 500px) {
-  .home .space-images img .blast {
+  .home .space-images img img .blast {
     display: block;
   }
-  .home .space-images img .sky {
+}
+@media (max-width: 500px) {
+  .home .space-images img img .sky {
     display: none;
   }
-  .home .space-images img .launch {
+}
+@media (max-width: 500px) {
+  .home .space-images img img .launch {
     display: none;
   }
 }
